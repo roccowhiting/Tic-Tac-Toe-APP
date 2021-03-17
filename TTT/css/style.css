@@ -10,18 +10,18 @@ body {
     font-family: Helvetica;
 }
 
-
-header, footer {
+header,
+footer {
     display: flex;
     align-items: center;
     height: 50px;
     color: #fff;
-    background-color: cyan;
+    background-color: #01fcef;
 }
 
 header {
     padding-left: 15px;
-    box-shadow: 1px 1px 3px 1px #8d8282;
+    box-shadow: 1px 1px 3px 1px #ccbebe;
 }
 
 footer {
@@ -36,21 +36,31 @@ main {
     align-items: center;
 }
 
-.top {border-top: 3px solid  cyan;}
-.right {border-right: 3px solid  cyan;}
-.bottom {border-bottom: 3px solid  cyan;}
-.left {border-left: 3px solid  cyan;}
+.top {
+    border-top: 3px solid #01fcef;
+}
+
+.right {
+    border-right: 3px solid #01fcef;
+}
+
+.bottom {
+    border-bottom: 3px solid #01fcef;
+}
+
+.left {
+    border-left: 3px solid #01fcef;
+}
 
 .square {
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    font-size: 100px
+    font-size: 100px;
     height: 200px;
     width: 200px;
 }
-
 
 #gameboard {
     display: flex;
