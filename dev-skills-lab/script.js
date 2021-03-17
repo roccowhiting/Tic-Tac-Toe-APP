@@ -1,6 +1,5 @@
-let skills
+let $input = $('#input');
+let $button = $('#.add-button');
+let $ul = $('#ul');
 
-const myList = []; 
-let $input = $('input') 
-let $ul = $('ul')
-let $button = $('button')
+ 
