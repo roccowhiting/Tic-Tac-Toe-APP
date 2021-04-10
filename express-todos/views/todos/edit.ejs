@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Express Todos | Edit a Todo</title>
+</head>
+<body>
+    <h1>Edit Todo</h1>
+    <form action="/todos/<%= todoId %>?_method=PUT" method="POST">
+        <input type="text" value="<%= todo.text %>" name="text">
+        <input type="checkbox" name="done" <%- todo.done ? 'checked' : '' %>>
+        <input type="submit" value="Update To-Do">
+    </form>
+</body>
+</html>

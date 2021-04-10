@@ -7,5 +7,8 @@ $('myList').on('click', '#remove', function() {
     $(this).closest('li').remove();
 });
 
+$('button').click(function() {
+    console.log('click');
+})
 
  
