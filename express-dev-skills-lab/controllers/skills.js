@@ -31,7 +31,7 @@ function newSkill(req, res) {
 
 function create(req, res) {
     req.body.done = false;
-    skill.create(req.body);
+    Skill.create(req.body);
     //res.redirect because we need to take the the user back to my skills page 
     res.redirect('/skills');
 }
